@@ -1,4 +1,4 @@
-rrbot:
+trobo:
   # Publish all joint states -----------------------------------
   joint_state_controller:
     type: joint_state_controller/JointStateController
@@ -6,10 +6,6 @@ rrbot:
   
   # Position Controllers ---------------------------------------
   joint1_position_controller:
-    type: effort_controllers/JointPositionController
+    type: velocity_controllers/JointPositionController
     joint: joint1
-    pid: {p: 100.0, i: 0.01, d: 10.0}
-  joint2_position_controller:
-    type: effort_controllers/JointPositionController
-    joint: joint2
     pid: {p: 100.0, i: 0.01, d: 10.0}

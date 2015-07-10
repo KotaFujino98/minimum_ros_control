@@ -1,7 +1,7 @@
 <package>
-  <name>rrbot_gazebo</name>
+  <name>trobo_gazebo</name>
   <version>0.1.0</version>
-  <description>rrbot_gazebo</description>
+  <description>trobo_gazebo</description>
   <maintainer email="davetcoleman@gmail.com">Dave Coleman</maintainer>
 
   <license>BSD</license>
@@ -14,8 +14,8 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>rrbot_description</run_depend>
-  <run_depend>rrbot_control</run_depend> 
+  <run_depend>trobo_description</run_depend>
+  <run_depend>trobo_control</run_depend> 
   <run_depend>gazebo_ros</run_depend> 
 
   <export>
