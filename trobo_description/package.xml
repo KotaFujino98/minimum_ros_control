@@ -4,13 +4,9 @@
   <version>0.0.0</version>
   <description>The trobo_description package</description>
 
-  <maintainer email="davetcoleman@gmail.com">Dave Coleman</maintainer>
+  <maintainer email="yoneken@ieee.org">Kenta Yonekura</maintainer>
 
   <license>BSD</license>
-
-  <url type="website">http://http://gazebosim.org/w/index.php?title=Tutorials/1.9/Using_A_URDF_In_Gazebo</url>
-  <url type="bugtracker">https://github.com/osrf/gazebo_ros_demos/issues</url>
-  <url type="repository">https://github.com/osrf/gazebo_ros_demos</url>
 
   <author email="davetcoleman@gmail.com">Dave Coleman</author>
 
