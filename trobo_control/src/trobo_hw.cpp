@@ -12,10 +12,10 @@ TRobo::TRobo()
   jnt_state_interface.registerHandle(state_handle_1);
   registerInterface(&jnt_state_interface);
 
-  // connect and register the joint effort interface
-  hardware_interface::JointHandle vel_handle_1(jnt_state_interface.getHandle("joint1"), &cmd_[0]);
-  jnt_vel_interface.registerHandle(vel_handle_1);
-  registerInterface(&jnt_vel_interface);
+  // connect and register the joint position interface
+  hardware_interface::JointHandle pos_handle_1(jnt_state_interface.getHandle("joint1"), &cmd_[0]);
+  jnt_pos_interface.registerHandle(pos_handle_1);
+  registerInterface(&jnt_pos_interface);
 }
 
 void TRobo::read(ros::Time time, ros::Duration period)
@@ -24,6 +24,6 @@ void TRobo::read(ros::Time time, ros::Duration period)
 
 void TRobo::write(ros::Time time, ros::Duration period)
 {
-  pos_[0] = cmd_[0];
+  //pos_[0] = cmd_[0];
 }
 
