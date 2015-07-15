@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(trobo_gazebo)
+project(minimam_ros_control)
 
 find_package(catkin REQUIRED)
 

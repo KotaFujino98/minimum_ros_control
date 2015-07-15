@@ -14,8 +14,8 @@ TRobo::TRobo()
 
   // connect and register the joint position interface
   hardware_interface::JointHandle pos_handle_1(jnt_state_interface.getHandle("joint1"), &cmd_[0]);
-  jnt_pos_interface.registerHandle(pos_handle_1);
-  registerInterface(&jnt_pos_interface);
+  jnt_eff_interface.registerHandle(pos_handle_1);
+  registerInterface(&jnt_eff_interface);
 }
 
 void TRobo::read(ros::Time time, ros::Duration period)

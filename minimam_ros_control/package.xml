@@ -1,12 +1,12 @@
 <package>
-  <name>trobo_gazebo</name>
+  <name>minimam_ros_control</name>
   <version>0.1.0</version>
-  <description>trobo_gazebo</description>
+  <description>minimam_ros_control</description>
   <maintainer email="yoneken@ieee.org">Kenta Yonekura</maintainer>
 
   <license>BSD</license>
 
-  <author email="davetcoleman@gmail.com">Dave Coleman</author>
+  <author email="yoneken@ieee.org">Kenta Yonekura</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
