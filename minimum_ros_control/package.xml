@@ -1,7 +1,7 @@
 <package>
-  <name>minimam_ros_control</name>
+  <name>minimum_ros_control</name>
   <version>0.1.0</version>
-  <description>minimam_ros_control</description>
+  <description>minimum_ros_control</description>
   <maintainer email="yoneken@ieee.org">Kenta Yonekura</maintainer>
 
   <license>BSD</license>
