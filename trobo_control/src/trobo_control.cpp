@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
   TRobo trobo;
   controller_manager::ControllerManager cm(&trobo, nh);
 
-  ros::Rate rate(1.0 / trobo.getPeriod().toSec());
   ros::AsyncSpinner spinner(1);
   spinner.start();
 
@@ -23,7 +22,7 @@ int main(int argc, char *argv[])
     cm.update(now, dt);
 
     trobo.write(now, dt);
-    rate.sleep();
+    dt.sleep();
   }
   spinner.stop();
 
