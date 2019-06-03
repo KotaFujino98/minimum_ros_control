@@ -11,11 +11,6 @@
   <xacro:property name="camera_link" value="0.05" /> <!-- Size of square 'camera' box -->
   <xacro:property name="axel_offset" value="0.05" /> <!-- Space btw top of beam and the each joint -->
 
-  <!-- Import all Gazebo-customization elements, including Gazebo colors -->
-  <xacro:include filename="$(find trobo_description)/urdf/trobo.gazebo" />
-  <!-- Import Rviz colors -->
-  <xacro:include filename="$(find trobo_description)/urdf/materials.xacro" />
-
   <!-- Used for fixing robot to Gazebo 'base_link' -->
   <link name="world"/>
 
