@@ -93,7 +93,7 @@
   </transmission>
 
   <gazebo>
-    <plugin nameta="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
     </plugin>
   </gazebo>
 
